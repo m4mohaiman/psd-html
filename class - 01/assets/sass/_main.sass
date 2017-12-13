@@ -1,0 +1,57 @@
+/*
+    *****************************
+      01 - Header css
+    *****************************
+
+header
+    padding: 15px 0
+    .edu-btn
+        margin-top: 2.5px
+    #main-menu ul
+        list-style: none
+        text-align: right
+        margin: 0
+        padding: 0
+        li
+            display: inline-block
+            a
+                font-size: 15px
+                font-weight: 700
+                color: #444444
+                line-height: 50px
+                padding: 0 15px
+                @extend .trns
+                &:hover
+                    @extend .c3
+
+/*
+    *****************************
+      02 - Slider css
+    *****************************
+
+.home-slider
+    .single-slide
+        background-size: cover
+        height: 760px
+        color: #fff
+        position: relative
+        z-index: 1
+        font-size: 19px
+        line-height: 28px
+        h1
+            font-size: 48px
+            line-height: 58px
+            font-weight: 700
+            margin-bottom: 20px
+        &::after
+            content: ''
+            height: 100%
+            width: 100%
+            position: absolute
+            left: 0
+            top: 0
+            background: #000000
+            opacity: .5
+            z-index: -1
+        .home-btn-group
+            margin-top: 20px
