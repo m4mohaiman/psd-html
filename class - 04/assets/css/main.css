@@ -1,0 +1,194 @@
+.c1, body {
+  color: #999999; }
+
+.c1-bg {
+  background-color: #999999; }
+
+.c1-bo {
+  border-color: #999999 !important; }
+
+.c2, .about-content h4, .about-content .feature-icon h5 {
+  color: #373737; }
+
+.c2-bg {
+  background-color: #373737; }
+
+.c2-bo {
+  border-color: #373737 !important; }
+
+.c3, header #main-menu ul li a:hover {
+  color: #2ecc71; }
+
+.c3-bg, .edu-btn, .about-content .feature-icon i {
+  background-color: #2ecc71; }
+
+.c3-bo {
+  border-color: #2ecc71 !important; }
+
+/*******************************************
+ *******************************************
+ *
+ * @File: Edubuzz HTML Template
+ * Created by - Delowar Hossain
+ *
+ * This file contains the styling for the actual theme, this
+ * is the file you need to edit to change the look of the
+ * theme.
+ *
+ * This files contents are outlined below >>>
+ *
+ *******************************************
+ *******************************************
+ *
+ * == INDEX PAGE CSS
+ * 00 - common & reset css
+ *
+ *
+ *
+ */
+/*****************************
+ *   00 - common & reset css
+ *****************************
+ *
+ */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px; }
+
+img {
+  max-width: 100%; }
+
+a:hover {
+  text-decoration: none; }
+
+.edu-btn {
+  font-size: 13px;
+  line-height: 45px;
+  padding: 0 35px;
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 22.5px;
+  letter-spacing: 1.1px; }
+  .edu-btn:hover {
+    background: #333;
+    color: #fff; }
+
+.pt-100 {
+  padding-top: 100px; }
+
+.pb-100 {
+  padding-bottom: 100px; }
+
+.ptb-100 {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.pd-100 {
+  padding: 100px; }
+
+.trns, header #main-menu ul li a {
+  -webkit-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s; }
+
+.trns2 {
+  -webkit-transition: all 0.3s cubic-bezier(0.84, 0.35, 0.39, 0.74) 0s;
+  transition: all 0.3s cubic-bezier(0.84, 0.35, 0.39, 0.74) 0s; }
+
+.flex_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+
+/*****************************
+ *   01 - Header css
+ ***************************** */
+header {
+  padding: 15px 0; }
+  header .edu-btn {
+    margin-top: 2.5px; }
+  header #main-menu ul {
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding: 0; }
+    header #main-menu ul li {
+      display: inline-block; }
+      header #main-menu ul li a {
+        font-size: 15px;
+        font-weight: 700;
+        color: #444444;
+        line-height: 50px;
+        padding: 0 15px; }
+
+/*****************************
+ *   02 - Slider css
+ ***************************** */
+.home-slider .single-slide {
+  background-size: cover;
+  height: 760px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  font-size: 19px;
+  line-height: 28px; }
+  .home-slider .single-slide h1 {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    margin-bottom: 20px; }
+  .home-slider .single-slide::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000000;
+    opacity: 0.5;
+    z-index: -1; }
+  .home-slider .single-slide .home-btn-group {
+    margin-top: 20px; }
+
+/*****************************
+ *   03 - about-area css
+ ***************************** */
+.about-image img {
+  border-radius: 5px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.15); }
+
+.about-content h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #999999;
+  margin-bottom: 1s0px; }
+.about-content h4 {
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 50px; }
+.about-content .feature-icon i {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  font-size: 22px; }
+.about-content .feature-icon h5 {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
+  margin: 17px 0 0; }
+
+/*# sourceMappingURL=main.css.map */
